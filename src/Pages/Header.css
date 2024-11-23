@@ -1,0 +1,104 @@
+/* Reset */ 
+body, html, ul, li, h1, button {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Header styles */
+.header {
+  width: 100%;
+  height: auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* CoreOne */
+.logo {
+  font-size: 36px;
+  color: #4964D2;
+  font-family: bold;
+}
+
+/* 상단 중앙 */
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-family: medium;
+}
+
+/* 회원가입, 로그인 */
+.buttons {
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
+}
+
+.signup-btn,
+.login-btn {
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: medium;
+}
+
+.signup-btn {
+  background-color: #4964D2;
+  color: white;
+}
+
+.login-btn {
+  background-color: white;
+  color: #4964D2;
+  border: 1px solid #4964D2;
+}
+
+/* 사진 */
+.banner {
+  width: 100%;
+  height: 400px;
+  background: url("https://via.placeholder.com/1600x400") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title {
+  font-size: 36px;
+  color: white;
+  font-family: medium;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* 클릭시 디자인 변경 */
+.business-btn {
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: medium;
+}
+
+.business-btn.active {
+  font-family: bold;
+  color: #4964D2; /* 클릭한 버튼 색상 변경 */
+  border-bottom: 2px solid #4964D2;
+}
